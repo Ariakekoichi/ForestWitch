@@ -1,0 +1,20 @@
+Version 1.12
+Updated core plugin to V1.75
+
+Version 1.1
+Updated core plugin to V1.74
+
+Version 1.0 
+
+- Show an icon in the hierarchy wherever you have a TK2D Sprite
+- 5 coloured icons to show different orders 
+- Red - 0
+- Blue -1
+- Green -2
+- Yellow -3
+- Light blue - 4
+
+- Dynamically assign an icon according to the distribution of the items in the scene
+
+- Show the placement in world space on the icon 
+- 5 preset icons 

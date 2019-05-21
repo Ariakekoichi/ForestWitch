@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 7af03dd67a09eff40a8364160dd7342a
+timeCreated: 1453301448
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ambientLight1
+    100002: //RootNode
+    100004: pCone1
+    100006: pCone2
+    100008: pCone3
+    100010: polySurface1
+    100012: polySurface10
+    100014: polySurface2
+    100016: polySurface3
+    100018: polySurface9
+    100020: polySurface9 1
+    100022: pSphere2
+    100024: pSphere3
+    100026: pSphere4
+    100028: pSphere5
+    100030: pSphere6
+    100032: transform1
+    100034: transform11
+    100036: transform12
+    100038: transform2
+    100040: transform3
+    100042: transform4
+    100044: transform5
+    100046: transform6
+    100048: transform7
+    100050: transform8
+    400000: ambientLight1
+    400002: //RootNode
+    400004: pCone1
+    400006: pCone2
+    400008: pCone3
+    400010: polySurface1
+    400012: polySurface10
+    400014: polySurface2
+    400016: polySurface3
+    400018: polySurface9
+    400020: polySurface9 1
+    400022: pSphere2
+    400024: pSphere3
+    400026: pSphere4
+    400028: pSphere5
+    400030: pSphere6
+    400032: transform1
+    400034: transform11
+    400036: transform12
+    400038: transform2
+    400040: transform3
+    400042: transform4
+    400044: transform5
+    400046: transform6
+    400048: transform7
+    400050: transform8
+    2300000: polySurface10
+    2300002: polySurface3
+    2300004: polySurface9
+    3300000: polySurface10
+    3300002: polySurface3
+    3300004: polySurface9
+    4300000: polySurface10
+    4300002: polySurface9
+    4300004: polySurface3
+    7400000: EnemyWitchIdle
+    7400002: EnemyWitchMove
+    7400004: EnemyWitchAttack
+    7400006: EnemyWitchDie
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EnemyWitchIdle
+      takeName: Take 001
+      firstFrame: 84
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform4
+        weight: 1
+      - path: pCone2
+        weight: 1
+      - path: pCone2/transform6
+        weight: 1
+      - path: pCone3
+        weight: 1
+      - path: pCone3/transform5
+        weight: 1
+      - path: polySurface10
+        weight: 1
+      - path: polySurface10/polySurface3
+        weight: 1
+      - path: polySurface10/polySurface9
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform7
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform1
+        weight: 1
+      - path: pSphere6
+        weight: 1
+      - path: pSphere6/polySurface1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1/transform12
+        weight: 1
+      - path: pSphere6/polySurface2
+        weight: 1
+      - path: pSphere6/polySurface2/transform11
+        weight: 1
+      - path: pSphere6/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EnemyWitchMove
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform4
+        weight: 1
+      - path: pCone2
+        weight: 1
+      - path: pCone2/transform6
+        weight: 1
+      - path: pCone3
+        weight: 1
+      - path: pCone3/transform5
+        weight: 1
+      - path: polySurface10
+        weight: 1
+      - path: polySurface10/polySurface3
+        weight: 1
+      - path: polySurface10/polySurface9
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform7
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform1
+        weight: 1
+      - path: pSphere6
+        weight: 1
+      - path: pSphere6/polySurface1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1/transform12
+        weight: 1
+      - path: pSphere6/polySurface2
+        weight: 1
+      - path: pSphere6/polySurface2/transform11
+        weight: 1
+      - path: pSphere6/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EnemyWitchAttack
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform4
+        weight: 1
+      - path: pCone2
+        weight: 1
+      - path: pCone2/transform6
+        weight: 1
+      - path: pCone3
+        weight: 1
+      - path: pCone3/transform5
+        weight: 1
+      - path: polySurface10
+        weight: 1
+      - path: polySurface10/polySurface3
+        weight: 1
+      - path: polySurface10/polySurface9
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform7
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform1
+        weight: 1
+      - path: pSphere6
+        weight: 1
+      - path: pSphere6/polySurface1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1/transform12
+        weight: 1
+      - path: pSphere6/polySurface2
+        weight: 1
+      - path: pSphere6/polySurface2/transform11
+        weight: 1
+      - path: pSphere6/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EnemyWitchDie
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform4
+        weight: 1
+      - path: pCone2
+        weight: 1
+      - path: pCone2/transform6
+        weight: 1
+      - path: pCone3
+        weight: 1
+      - path: pCone3/transform5
+        weight: 1
+      - path: polySurface10
+        weight: 1
+      - path: polySurface10/polySurface3
+        weight: 1
+      - path: polySurface10/polySurface9
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform7
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform1
+        weight: 1
+      - path: pSphere6
+        weight: 1
+      - path: pSphere6/polySurface1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1
+        weight: 1
+      - path: pSphere6/polySurface1/polySurface9 1/transform12
+        weight: 1
+      - path: pSphere6/polySurface2
+        weight: 1
+      - path: pSphere6/polySurface2/transform11
+        weight: 1
+      - path: pSphere6/transform8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: polySurface1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: polySurface9 1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: transform12
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemyWitch(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ambientLight1
+      position: {x: 0, y: .0797891989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCone1
+      position: {x: 0, y: .0272688717, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.89022672, z: 1}
+      transformModified: 1
+    - name: transform4
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCone2
+      position: {x: -.00964670721, y: .0274279732, z: .00236131577}
+      rotation: {x: 0, y: 0, z: -.780489504, w: .62516886}
+      scale: {x: .463782132, y: 1.18404901, z: .451589406}
+      transformModified: 1
+    - name: transform6
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCone3
+      position: {x: .00964999944, y: .0274279732, z: .00236131577}
+      rotation: {x: .789138794, y: -.614214957, z: -3.7609818e-17, w: 4.83208143e-17}
+      scale: {x: .463782161, y: 1.18404901, z: .451589406}
+      transformModified: 1
+    - name: transform5
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface10
+      position: {x: 0, y: .0340164341, z: -.00506132701}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface3
+      position: {x: .0103200376, y: -.00612229854, z: .00705336919}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface9
+      position: {x: -.0102892751, y: -.00653793197, z: .00701106712}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere2
+      position: {x: 0, y: .044314146, z: 7.90685517e-05}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.13933444, y: 1.04282796, z: 1.04282796}
+      transformModified: 1
+    - name: transform3
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere3
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: transform7
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere4
+      position: {x: -.00422732718, y: .0429448411, z: .00815806817}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: .160263047, y: .160263047, z: .160263047}
+      transformModified: 1
+    - name: transform2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere5
+      position: {x: .00423000008, y: .0429448411, z: .00815806817}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: .160263047, y: .160263047, z: .160263047}
+      transformModified: 1
+    - name: transform1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere6
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface9 1
+      position: {x: -.0172893386, y: .0269605201, z: .00194974011}
+      rotation: {x: .0991825834, y: 0, z: .879502535, w: .465444058}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: transform12
+      position: {x: .0172893386, y: -.0269605201, z: -.00194974011}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: transform11
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: transform8
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

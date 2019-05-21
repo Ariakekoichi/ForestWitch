@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: a49e8fb3517ff9a4f8fb43cc7c4ed07c
+timeCreated: 1453301449
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: pCylinder10
+    100002: pCylinder11
+    100004: pCylinder12
+    100006: pCylinder13
+    100008: pCylinder14
+    100010: pCylinder3
+    100012: pCylinder5
+    100014: polySurface9
+    100016: pSphere1
+    100018: pSphere2
+    100020: transform1
+    100022: transform2
+    100024: transform3
+    100026: transform4
+    100028: //RootNode
+    400000: pCylinder10
+    400002: pCylinder11
+    400004: pCylinder12
+    400006: pCylinder13
+    400008: pCylinder14
+    400010: pCylinder3
+    400012: pCylinder5
+    400014: polySurface9
+    400016: pSphere1
+    400018: pSphere2
+    400020: transform1
+    400022: transform2
+    400024: transform3
+    400026: transform4
+    400028: //RootNode
+    2300000: pCylinder10
+    2300002: pCylinder11
+    2300004: pCylinder13
+    2300006: pCylinder14
+    2300008: pCylinder3
+    2300010: pCylinder5
+    3300000: pCylinder10
+    3300002: pCylinder11
+    3300004: pCylinder13
+    3300006: pCylinder14
+    3300008: pCylinder3
+    3300010: pCylinder5
+    4300000: pCylinder14
+    4300002: pCylinder3
+    4300004: pCylinder13
+    4300006: pCylinder11
+    4300008: pCylinder5
+    4300010: pCylinder10
+    7400000: Witchwalk
+    7400002: Witchattack
+    7400004: Witchdie
+    7400006: Witchidle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''Witch'' conversion failed: Required human bone ''LeftLowerLeg''
+      not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Witchwalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder12
+        weight: 0
+      - path: pCylinder12/transform4
+        weight: 0
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder14/pCylinder3
+        weight: 1
+      - path: pCylinder14/pCylinder3/pCylinder13
+        weight: 1
+      - path: pCylinder14/pCylinder5
+        weight: 0
+      - path: pCylinder14/pCylinder10
+        weight: 0
+      - path: pCylinder14/pCylinder11
+        weight: 0
+      - path: polySurface9
+        weight: 0
+      - path: polySurface9/transform2
+        weight: 0
+      - path: pSphere1
+        weight: 0
+      - path: pSphere1/transform3
+        weight: 0
+      - path: pSphere2
+        weight: 0
+      - path: pSphere2/transform1
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Witchattack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder12
+        weight: 0
+      - path: pCylinder12/transform4
+        weight: 0
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder14/pCylinder3
+        weight: 1
+      - path: pCylinder14/pCylinder3/pCylinder13
+        weight: 1
+      - path: pCylinder14/pCylinder5
+        weight: 1
+      - path: pCylinder14/pCylinder10
+        weight: 1
+      - path: pCylinder14/pCylinder11
+        weight: 0
+      - path: polySurface9
+        weight: 0
+      - path: polySurface9/transform2
+        weight: 0
+      - path: pSphere1
+        weight: 0
+      - path: pSphere1/transform3
+        weight: 0
+      - path: pSphere2
+        weight: 0
+      - path: pSphere2/transform1
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Witchdie
+      takeName: Take 001
+      firstFrame: 124
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder12
+        weight: 0
+      - path: pCylinder12/transform4
+        weight: 0
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder14/pCylinder3
+        weight: 1
+      - path: pCylinder14/pCylinder3/pCylinder13
+        weight: 1
+      - path: pCylinder14/pCylinder5
+        weight: 1
+      - path: pCylinder14/pCylinder10
+        weight: 1
+      - path: pCylinder14/pCylinder11
+        weight: 0
+      - path: polySurface9
+        weight: 0
+      - path: polySurface9/transform2
+        weight: 0
+      - path: pSphere1
+        weight: 0
+      - path: pSphere1/transform3
+        weight: 0
+      - path: pSphere2
+        weight: 0
+      - path: pSphere2/transform1
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Witchidle
+      takeName: Take 001
+      firstFrame: 93
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCylinder12
+        weight: 1
+      - path: pCylinder12/transform4
+        weight: 1
+      - path: pCylinder14
+        weight: 1
+      - path: pCylinder14/pCylinder3
+        weight: 1
+      - path: pCylinder14/pCylinder3/pCylinder13
+        weight: 1
+      - path: pCylinder14/pCylinder5
+        weight: 1
+      - path: pCylinder14/pCylinder10
+        weight: 1
+      - path: pCylinder14/pCylinder11
+        weight: 1
+      - path: polySurface9
+        weight: 1
+      - path: polySurface9/transform2
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform3
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
