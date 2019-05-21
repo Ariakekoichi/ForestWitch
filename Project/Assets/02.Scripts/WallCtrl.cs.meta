@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 36a4fec4ef06d4e05a134eeac51d2347
+timeCreated: 1453475040
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - sparkEffect: {fileID: 100000, guid: 9c5bd6070cd5d481abdb8755ff51fd7a, type: 2}
+  - sparkEffect1: {fileID: 100000, guid: 9c5bd6070cd5d481abdb8755ff51fd7a, type: 2}
+  - sparkEffect2: {fileID: 131164, guid: 3c5f4e32698bdb04eaed647f60310510, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

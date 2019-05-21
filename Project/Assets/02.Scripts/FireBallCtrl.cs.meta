@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f4273c7f7c8b8644eb55dcffdf55bafc
+timeCreated: 1453475135
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - FireBall: {fileID: 128036, guid: 820aaaf65284d304c89c4e9f2190a03a, type: 2}
+  - sparkEffect: {fileID: 100000, guid: 9c5bd6070cd5d481abdb8755ff51fd7a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
